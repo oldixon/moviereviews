@@ -1,0 +1,111 @@
+body{
+    background-color: greenyellow;
+}
+
+img{
+    padding-right: 5px;
+}
+
+.home{
+    border: solid black 2px;
+    background-color: aqua;
+    padding: 2px;
+}
+
+.search{
+    display: flex;
+    border: solid black 5px;
+    padding: 5px;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.log{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav{
+    display: flex;
+    border: solid black 5px;
+    padding: 5px;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.flex{
+    display: flex;
+}
+
+.movie{
+    display: flex;
+    justify-content:space-between;
+    background-color: lightblue;
+    border: solid black 2px;
+    font-size: 75%;
+}
+
+.thebatman{
+    flex: 1;
+    border: solid black 5px;
+    display: flex;
+    margin: 5px;
+}
+
+.thebatman iframe{
+    width: 100%;
+    height: 350px;
+}
+
+.scarjo{
+    background-color: lightblue;
+    border: solid black 5px;
+    padding: 5px;
+    width: 50%;
+    justify-content: right;
+    margin: 5px;
+}
+
+.disney{
+    width: 60%;
+}
+
+a:hover {
+    font-weight: bold;
+    border: 5px solid purple;
+
+}
+
+.genres{
+    border: solid black 2px;
+    background-color: aqua;
+    padding: 2px;
+    justify-content: space-between;
+}
+
+.button{
+    display: flex;
+    background-color: violet;
+    margin: 5px;
+    padding: 5px;
+    border: solid black 2px;
+    
+}
+
+.word{
+    font-size: 200%;
+    border: solid black 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.movies{
+        border: solid black 5px;
+        background-color: aqua;
+        display: flex;
+        margin: 5px;
+}
+
+.video{
+    flex: 2;
+}
